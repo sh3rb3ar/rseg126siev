@@ -5,9 +5,9 @@ public class Main {
         @SuppressWarnings("resource")
         Scanner myInt = new Scanner(System.in);
         int a;
-        System.out.println("Enter an integer: ");
+        System.out.println("Enter an number: ");
         a = myInt.nextInt();
-        System.out.println("These are all of the prime numbers less than or equal to " + a);
+        System.out.println("These are all of the prime integers less than or equal to " + a);
         Soe b = new Soe();
         b.soe(a);
     }
